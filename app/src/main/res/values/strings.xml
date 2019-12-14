@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EyeCare</string>
+
+    <string-array name="binkcount">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="alert">
+        <item>สั้นและเสียง</item>
+        <item>สั้น</item>
+        <item>เสียง</item>
+    </string-array>
+
+    <string-array name="sound">
+        <item>ค่าเริ่มต้น</item>
+        <item>Alarm Frenzy</item>
+        <item>Arpeggio</item>
+        <item>Office</item>
+        <item>Spring Board</item>
+        <item>New Message</item>
+    </string-array>
+</resources>

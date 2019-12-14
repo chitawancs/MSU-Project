@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:focusable="true"
+              android:focusableInTouchMode="true">
+
+        <TextView
+                android:textColor="@color/text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="หัวข้อการแจ้งเตือน"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/textView27"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.027" app:layout_constraintHorizontal_bias="0.066"/>
+        <EditText
+                android:textColor="@color/text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="32"
+                android:ems="16"
+                android:inputType="textLongMessage"
+                android:id="@+id/addTxtNameUpdate"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.235" app:layout_constraintVertical_bias="0.101"
+                android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+        <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                        android:textColor="@color/text"
+                        android:layout_marginLeft="250sp"
+                        android:text="ครั้ง"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:id="@+id/textView26"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.222"
+                        app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.863"/>
+                <TextView
+                        android:textColor="@color/text"
+                        android:text="จำนวนกระพริบตา"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:id="@+id/textView29"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintHorizontal_bias="0.064" app:layout_constraintVertical_bias="0.224"/>
+                <Spinner
+                        android:textColor="@color/text"
+                        android:layout_marginLeft="150sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintVertical_bias="0.224"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintHorizontal_bias="0.669"/>
+        </RelativeLayout>
+        <TextView
+                android:textColor="@color/text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="รูปแบบการแจ้งเตือน"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/textView30"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.072"
+                app:layout_constraintVertical_bias="0.322"/>
+        <Spinner
+                android:textColor="@color/text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2update"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_bias="0.09" app:layout_constraintVertical_bias="0.618"/>
+        <TextView
+                android:textColor="@color/text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="เสียงแจ้งเตือน"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/textView31"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.061"
+                app:layout_constraintVertical_bias="0.519"/>
+        <Spinner
+                android:textColor="@color/text"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner3update"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_bias="0.09" app:layout_constraintVertical_bias="0.405"/>
+        <TextView
+                android:textColor="@color/text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="ข้อความแจ้งเตือน"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/textView28"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintVertical_bias="0.697"/>
+        <EditText
+
+                android:textColor="@color/text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textLongMessage"
+                android:ems="16"
+                android:maxLength="32"
+                android:id="@+id/addTxtMsgUpdate"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.279"
+                app:layout_constraintVertical_bias="0.821"/>
+</LinearLayout>
